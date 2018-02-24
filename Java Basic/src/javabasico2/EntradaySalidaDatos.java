@@ -1,5 +1,4 @@
 package javabasico2;
-
 import java.util.Scanner;
 /**
  * @author Manuel García 24/02/2018
