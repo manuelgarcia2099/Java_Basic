@@ -12,7 +12,6 @@ public class EntradaySalidaDatos {
 		System.err.println("mensaje: "+mensaje);
 		
 		Scanner teclado = new Scanner(System.in);
-		
 		String cadena;
 		int numeroEntero=0;
 		double numeroReal=0.0;
@@ -44,7 +43,6 @@ public class EntradaySalidaDatos {
 		System.out.println();
 		System.out.printf("Cadena: %s, Entero: %d, Real: %4.2f", "Hola", 245,78.2589);
 		
-
 	}
 
 }
