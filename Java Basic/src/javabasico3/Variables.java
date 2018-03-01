@@ -1,13 +1,21 @@
 package javabasico3;
-
+/**
+ * @author Manuel García
+ */
 public class Variables {
 
 	public static void main(String[] args) {
-
-		int legionario = 30;
-		System.out.println("Cantidad de legionarios en nuestro curso es: "+ legionario);
+		int legionarios = 30;
+		System.out.println(legionarios);
 		
-		//Valido
+//		Esto es un comentario de una sola línea
+		
+		/*Esto 
+		es 
+		un comentario
+		multilínea*/
+		
+//		Comentarios Válidos		
 		int firstAge;
 		int lastAge;
 		int first_age;
@@ -16,15 +24,16 @@ public class Variables {
 		int val1;
 		int valAge;
 		
-		//No Válido
-		/*int 1Age;
+//		Comentarios No Válidos
+		/*int 1age;
 		int first age;
 		int test#;
-		int final;*/
+		int final;
+		int double;*/
+
+//		Diferencia entre un dato primitivo y un dato de clase
 		
-		//Diferencia entre un dato primitivo y un dato de Clase
-		
-		int numeroEntero = 5;
+		int numeroEntero= 5;
 		Integer numeroInteger = 3;
 		Integer numeroIntegerDos = new Integer(4);
 		
@@ -35,32 +44,36 @@ public class Variables {
 		String resultado = numeroInteger.toString();
 		System.out.println(resultado);
 		
-		
 		int edad = 18;
-		double pago = 60.0;
-		char letra = 'e';
-		boolean estudiante = true;
+		double pago = 65.30;
+		char letra ='e';
+		boolean esEstudiante = true;
 		
-		String holaMundo = " Hola!!! ";
+		String palabraConSentido= "Hola Mundo";
+		String palabraSinSentido= "falfaklfljalfkja";
 		
-		String vacio1 = " ";
-		String vacio2 = new String();
+		System.out.println(palabraConSentido);
+		System.out.println(palabraSinSentido);
 		
-		System.out.println(edad);
-		System.out.println(pago);
-		System.out.println(letra);
-		System.out.println(estudiante);
-		System.out.println(holaMundo);
-		System.out.println(vacio1);
-		System.out.println(vacio2);
 		
 		int primerNumero = 2;
 		double segundoNumero = 9.0;
-		float tercerNumero = (float) (2000*primerNumero/segundoNumero + 7);
+		float tercerNumero = (float) (2000*primerNumero/segundoNumero +7);
 		
-		System.out.println("float: "+tercerNumero);
+		System.out.println("Float: "+tercerNumero);
 		System.out.println("Double: "+(double)tercerNumero);
 		System.out.println("int: "+(int)tercerNumero);
+		
+		
+		//Separadores
+//		() {} [] ;
+		
+		System.out.println(2+1*3);
+		System.out.println((2+1)*3);
+		
+		String [] javaLegion = {"Juan", "José", "Pedro", "Jimena"};
+		
+		
 		
 	}
 
