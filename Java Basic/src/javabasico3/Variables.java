@@ -5,73 +5,85 @@ package javabasico3;
 public class Variables {
 
 	public static void main(String[] args) {
+		
 		int legionarios = 30;
-		System.out.println(legionarios);
 		
-//		Esto es un comentario de una sola línea
-		
-		/*Esto 
-		es 
-		un comentario
-		multilínea*/
-		
-//		Comentarios Válidos		
-		int firstAge;
-		int lastAge;
-		int first_age;
-		int firstage;
-		int $age;
+		//Identificadores Válidos:
+		int primeraEdad;
+		int ultimaEdad;
+		int primera_edad;
+		int primeraedad;
+		int $edad;
 		int val1;
 		int valAge;
 		
-//		Comentarios No Válidos
-		/*int 1age;
-		int first age;
-		int test#;
-		int final;
-		int double;*/
-
-//		Diferencia entre un dato primitivo y un dato de clase
+		//Identificadores No Válidos:
+//		int 1age;
+//		int primera Edad;
+//		int test#;
+//		int final;
+//		int break;
 		
-		int numeroEntero= 5;
-		Integer numeroInteger = 3;
-		Integer numeroIntegerDos = new Integer(4);
+		//Diferencia entre un dato primitivo y un dato de clase. int - Integer
+		int numeroInt=5; 
+		Integer numeroInteger = new Integer(3);
 		
-		System.out.println(numeroEntero);
-		System.out.println(numeroInteger);
-		System.out.println(numeroIntegerDos);
+		System.out.println("Número int: "+numeroInt);
+		System.out.println("Número Integer: "+ numeroInteger);
+		System.out.println("Suma int + Integer: "+(numeroInt+numeroInteger));
 		
-		String resultado = numeroInteger.toString();
-		System.out.println(resultado);
+//		numeroInt.
+//		numeroInteger.
 		
-		int edad = 18;
-		double pago = 65.30;
-		char letra ='e';
-		boolean esEstudiante = true;
+//		int resultado = int.parseInt(3);
+		int resultado = Integer.parseInt("1");
+		System.out.println("El texto transformado a entero: "+resultado);
 		
-		String palabraConSentido= "Hola Mundo";
-		String palabraSinSentido= "falfaklfljalfkja";
+		System.out.println("Suma de numroInt + resultado: "+ (numeroInt + resultado));
 		
-		System.out.println(palabraConSentido);
-		System.out.println(palabraSinSentido);
+		//datos.
+		int edad= 18;
+		double peso = 60.5;
+		char letra='e';
+		boolean legionario = true;
 		
+		String str3= "NotemSntido";
+		String str4= "Tiene Sentido";
 		
-		int primerNumero = 2;
-		double segundoNumero = 9.0;
-		float tercerNumero = (float) (2000*primerNumero/segundoNumero +7);
+		String str = " ";
+		String str2 = new String();
 		
-		System.out.println("Float: "+tercerNumero);
-		System.out.println("Double: "+(double)tercerNumero);
+//		Esto es un comentario de una sola línea
+		
+		/*Esto
+		es un
+		comentario
+		multilínea*/
+		
+		System.out.println("Cantidad de legionarios actuales: "+legionarios);
+		
+		int primerNumero = 2; // 32 bits
+		double segundoNumero=9.0; // 64bits
+		float tercerNumero= (float) (2000*primerNumero/segundoNumero + 7); //32 bits
+		
+		System.out.println("******************");
+		System.out.println("float: "+tercerNumero);
+		System.out.println("double: "+(double)tercerNumero);
 		System.out.println("int: "+(int)tercerNumero);
+		System.out.println("******************");
+		
+		//Sepadores
+		//()
+		System.out.println("Tenemos "+legionarios+" legionarios en el curso");
+		System.out.println("Dentro de 30 días tendremos: "+(legionarios*15)+" legionarios");
+		
+		//{}
+		//[]
+		
+		String[] javaLegion= {"Juan", "José", "Pedro", "Raúl", "Jimena"};
+		//;
 		
 		
-		//Separadores
-//		() {} [] ;
-		
-		System.out.println(2+1*3);
-		System.out.println((2+1)*3);
-		
-		String [] javaLegion = {"Juan", "José", "Pedro", "Jimena"};
 		
 		
 		
