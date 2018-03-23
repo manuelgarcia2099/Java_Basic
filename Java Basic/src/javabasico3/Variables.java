@@ -1,6 +1,6 @@
 package javabasico3;
 /**
- * @author Manuel García
+ * @author Manuel García  
  */
 public class Variables {
 
