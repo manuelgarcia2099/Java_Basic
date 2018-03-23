@@ -1,4 +1,9 @@
 package javabasico5;
+/**
+ * 
+ * @author Manuel García
+ *
+ */
 public class OperadoresII {
 
 	public static void main(String[] args) {
